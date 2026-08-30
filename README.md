@@ -528,6 +528,6 @@ If PC-Free helped you, consider:
 
 Made with ❤️ for developers who need Windows without owning a PC
 
-[⬆ Back to top](#pc-free---windows-10-in-github-codespaces--run-windows-10-free-in-browser)
+[⬆ Back to top](#pc-free---windows-10-in-gitkhub-codespaces--run-windows-10-free-in-browser)
 
 </div>
