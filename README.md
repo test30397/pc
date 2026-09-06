@@ -129,9 +129,6 @@ Asegúrate de que `Docker Root Dir` sea `/tmp/docker-data`.
 ## 🧱 Archivo `windows10.yml`
 
 ```yaml
-# Antes de ejecutar docker-compose up, ejecuta:
-# bash check_github_follow.sh || exit 1
-# Si no sigues a https://github.com/jephersonRD, el entorno no se iniciará.
 services:
   windows:
     image: dockurr/windows
@@ -164,6 +161,12 @@ volumes:
 
 ## 🗝️ Archivo `.env`
 
+Copia la plantilla y reemplaza los valores de ejemplo:
+
+```bash
+cp .env.example .env
+```
+
 ```ini
 WINDOWS_USERNAME=YourUsername
 WINDOWS_PASSWORD=YourPassword
@@ -172,8 +175,8 @@ GITHUB_USER=YourGitHubUsername
 
 ### 🛑 Agrega este archivo a tu `.gitignore`:
 
-```bash
-echo ".env" >> .gitignore
+```gitignore
+.env
 ```
 
 ---
